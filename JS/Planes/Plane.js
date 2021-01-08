@@ -7,22 +7,22 @@ class Plane {
         this.maxLoadCapacity = maxLoadCapacity;
     }
 
-    getModel() {
+    get getModel() {
         return this.model;
     }
 
-    getMS() {
+    get getMaxSpeed() {
         return this.maxSpeed;
     }
 
-    Get_Max_Flight_Distance() {
+    get GetMaxFlightDistance() {
         return this.maxFlightDistance;
     }
 
-    getMinLoadCapacity() {
-     let result = this.maxLoadCapacity;
-     return result;
+    get getMaxLoadCapacity() {
+     return this.maxLoadCapacity;
     }
+
 }
 
 module.exports = Plane;
